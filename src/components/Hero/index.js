@@ -9,7 +9,7 @@ import Partner from "components/Partner";
 
 export default function Hero() {
   return (
-    <section className="container mx-auto flex items-center lg:items-start gap-x-10 pb-16 mb-20">
+    <section className="container px-4 mx-auto flex items-center lg:items-start gap-x-10 pb-16 mb-20">
       <div className="w-full xl:w-7/12 pr-10 pt-32">
         <h1 className="text-white font-bold text-2xl xl:text-4xl 2xl:text-[55px] leading-relaxed xl:leading-relaxed pb-6">
           Focus On Your Startup, We Take Care Of All Your Legal
@@ -23,10 +23,7 @@ export default function Hero() {
           bigger.
         </p>
         <Link href="#get-started">
-          <a
-            href=""
-            className="bg-yellow text-brown font-semibold py-2 lg:py-4 px-6 lg:px-8 rounded-full inline-flex mb-12"
-          >
+          <a className="bg-yellow text-brown font-semibold py-2 lg:py-4 px-6 lg:px-8 rounded-full inline-flex mb-12">
             {" "}
             Get Started
           </a>
@@ -35,7 +32,7 @@ export default function Hero() {
         <Partner />
       </div>
       <div className="w-full xl:w-6/12 relative hidden lg:flex">
-        <div className="md:w-[477px] md:h-[350px] xl:w-[667px] xl:h-[550px] 2xl:w-[877px] 2xl:h-[750px] md:rounded-bl-[150px] xl:rounded-bl-[250px] 2xl:rounded-bl-[350px] border absolute -left-10 top-10">
+        <div className="md:w-[477px] md:h-[350px] xl:w-[677px] xl:h-[550px] 2xl:w-[877px] 2xl:h-[750px] md:rounded-bl-[150px] xl:rounded-bl-[250px] 2xl:rounded-bl-[350px] border absolute -left-10 top-10">
           <span className="w-32 h-32 rounded-full bg-white absolute left-10 bottom-10 flex items-center justify-center flex-col z-20">
             <span className="bg-green-100 text-green-500 w-14 h-14 inline-flex items-center justify-center rounded-full  p-2 mb-2">
               <Lock />

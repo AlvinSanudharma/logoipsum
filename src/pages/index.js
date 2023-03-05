@@ -10,7 +10,7 @@ import Rewards from "images/rewards.svg";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Logo Ipsum</title>
         <meta
@@ -128,6 +128,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-    </div>
+    </>
   );
 }

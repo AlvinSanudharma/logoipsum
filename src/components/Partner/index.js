@@ -6,7 +6,7 @@ import Google from "images/google.svg";
 
 export default function Partner() {
   return (
-    <div className="flex flex-wrap items-center gap-x-8 gap-y-6">
+    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-8 gap-y-6">
       <Netflix />
       <Verizon />
       <Google />
